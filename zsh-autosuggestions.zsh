@@ -470,4 +470,4 @@ _zsh_autosuggest_start() {
 }
 
 autoload -Uz add-zsh-hook
-add-zsh-hook precmd _zsh_autosuggest_start
+add-zsh-hook -d precmd _zsh_autosuggest_start
